@@ -1,0 +1,37 @@
+Saída esperada:
+
+= TESTE DA LISTA ENCADEADA =
+
+1. Lista criada:
+[  ]
+Lista vazia? True
+Tamanho: 0
+
+2. Inserindo elementos:
+[ 5 10 15 20 30 ]
+Tamanho: 5
+
+3. Acesso e modificação:
+Elemento na posição 2: 10
+Elemento na posição 4: 20
+Após modificar posição 3 para 100:
+[ 5 10 100 20 30 ]
+
+4. Remoção de elementos:
+Removido da posição 2: 10
+[ 5 100 20 30 ]
+Removido da posição 1: 5
+[ 100 20 30 ]
+Removido da posição 3: 30
+[ 100 20 ]
+Tamanho atual: 2
+
+5. Teste de erros:
+Erro ao acessar posição 0: Posição inválida. A lista tem 2 elementos.
+Erro ao inserir na posição 5: Posição inválida. Posições válidas: 1 a 3.
+Erro ao remover posição 3: Posição inválida. A lista tem 2 elementos.
+
+6. Esvaziando a lista:
+[  ]
+Lista vazia? True
+Tamanho: 0
